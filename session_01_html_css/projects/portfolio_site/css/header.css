@@ -1,0 +1,33 @@
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: var(--font-main);
+    font: medium;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #5b4fcf;
+  }
+
+  nav a {
+    font-family: var(--font-main);
+    margin-left: 2.3rem;
+    text-decoration: none;
+    color: #283c2a;
+    font-size: 1.6rem;
+    font-weight: 540;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.2s;
+  }
